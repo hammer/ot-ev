@@ -47,3 +47,24 @@ Working with Open Targets evidence data 🧐
 1. pvalue
 1. confidence_interval
 1. odd_ratio
+
+### Additional top-level keys
+- `literature.references.[]`
+- `variant.{type, id}`
+
+### Evidence keys
+- `variant2disease`
+  - `gwas_sample_size`
+  - `unique_experiment_reference`
+  - `gwas_panel_resolution`
+  - `provenance_type`
+  - `is_associated`
+  - `resource_score`
+  - `evidence_codes`
+  - `date_asserted`
+- `gene2variant`
+  - `functional_consequence`
+  - `provenance_type`
+  - `is_associated`
+  - `evidence_codes`
+  - `date_asserted`
