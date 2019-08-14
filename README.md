@@ -22,3 +22,28 @@ Working with Open Targets evidence data 🧐
 | reactome | reactome-2019-05-29.json.gz | external | 10,083 | [affected_pathway.json](https://github.com/hammer/ot-ev/blob/master/affected_pathway.json) |
 | uniprot; uniprot_literature; uniprot_somatic | uniprot-2019-05-20.json.gz | external | 28,743; 4,567; 284 | |
 
+# JSON Schema details
+| Key | Required? | Details |
+| --- | --- | --- |
+| sourceID | Y | |
+| access_level | Y | |
+| type | N | |
+| validated_against_schema_version | N | |
+| target | Y | required: id, target_type, activity; optional: activity, complex_id, target_name, target_class |
+| disease | Y | required: id |
+| unique_association_fields | Y | Composite key to hash for duplicate detection |
+| evidence | Y | Where most of the variability lives |
+
+# Evidence schema details
+## GWAS Catalog
+### Unique association fields
+1. sample_size
+1. gwas_panel_resolution
+1. pubmed_refs
+1. target
+1. object
+1. variant
+1. study_name
+1. pvalue
+1. confidence_interval
+1. odd_ratio
