@@ -412,13 +412,13 @@ def fix_evidence(evidence):
 
 if __name__ == "__main__":
     ev_files = [
-        'affected_pathway.json',
-        'animal_model.json',
-        'genetic_association.json',
-        'known_drug.json',
-        'literature.json',
-        'rna_expression.json',
-        'somatic_mutation.json',
+        'affected_pathway.jsonl',
+        'animal_model.jsonl',
+        'genetic_association.jsonl',
+        'known_drug.jsonl',
+        'literature.jsonl',
+        'rna_expression.jsonl',
+        'somatic_mutation.jsonl',
         ]
     for ev_file in ev_files:
         with jsonlines.open(ev_file) as ev_reader:
