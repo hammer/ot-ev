@@ -20,7 +20,7 @@ Working with Open Targets evidence data 🧐
 | eva; eva_somatic | eva-2019-06-03.json.gz | external | 89,636; 7,057 | |
 | gwas_catalog | gwas-2019-05-29.json.gz | external | 157,008 | [genetic_association.json](https://github.com/hammer/ot-ev/blob/master/genetic_association.json) |
 | reactome | reactome-2019-05-29.json.gz | external | 10,083 | [affected_pathway.json](https://github.com/hammer/ot-ev/blob/master/affected_pathway.json) |
-| uniprot; uniprot_literature; uniprot_somatic | uniprot-2019-05-20.json.gz | external | 28,743; 4,567; 284 | |
+| uniprot; uniprot_literature; uniprot_somatic | uniprot-2019-05-20.json.gz | external https://github.com/ebi-uniprot/open-targets-core-db | 28,743; 4,567; 284 | |
 
 # JSON Schema details
 | Key | Required? | Details |
